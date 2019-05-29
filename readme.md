@@ -4,24 +4,25 @@ Code Recess covering the basics of image lazy loading.
 
 ### Background Info
 
-* What is lazy loaading?
+* __What is lazy loaading?__
   * async image loading - happens after load event, browser does not download images by default
   * can be triggered by user events (hover, scroll, etc.) or duration (timeout) 
   * general approach of deferred loading can be used with iframes, videos, data, anything! 
   * native lazy-loading via loading attribute (loading="lazy")
 
-* Why lazy loading
-  * performance and page weight
-  * images account for roughly 50% of a site's traffic
-
-* Use cases
+* __Use cases__
   * image galleries, sliders, modals, tooltips, etc. - anytime an image isn't imediately in view
   * highly interactive sites or games (preloading)
 
-* pitfalls / gotchas
+* __Why lazy loading__
+  * performance and page weight
+  * images account for roughly 50% of a site's traffic
+  * esp important for mobile + low-bandwidth situations
+
+* __pitfalls / gotchas__
   * src-swapping is not enough
   * SEO implications A11Y concerns - use `<noscript>` tags
-  * image urls that redirect
+  * image urls that redirect (ie - https://source.unsplash.com/random)
 
 ### Examples
 
