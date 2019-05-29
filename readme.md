@@ -18,10 +18,10 @@ Code Recess covering the basics of image lazy loading.
   * image galleries, sliders, modals, tooltips, etc. - anytime an image isn't imediately in view
   * highly interactive sites or games (preloading)
 
-* pitfalls
+* pitfalls / gotchas
   * src-swapping is not enough
-  * SEO implications
-  * A11Y
+  * SEO implications A11Y concerns - use `<noscript>` tags
+  * image urls that redirect
 
 ### Examples
 
@@ -36,12 +36,13 @@ Code Recess covering the basics of image lazy loading.
 * Advanced techniques
   * placeholder images/icons, blur-up technique
 
-* More resources
-  * [Complete Guide to Lazy Loading Images](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/) from CSS-Tricks
-  * [How To Build Your Own Progressive Image Loader](https://www.sitepoint.com/how-to-build-your-own-progressive-image-loader/) from Google 
-  * [Lazy Loading Images and Video](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/) from SitePoint
-  * [Intersection Observer's Coming Into View](https://developers.google.com/web/updates/2016/04/intersectionobserver) from Google Developers
-  * [Native Lazy-Loading For The Web](https://addyosmani.com/blog/lazy-loading/) from Addy Osami
+### Resources
+
+* [Complete Guide to Lazy Loading Images](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/) from CSS-Tricks
+* [How To Build Your Own Progressive Image Loader](https://www.sitepoint.com/how-to-build-your-own-progressive-image-loader/) from Google 
+* [Lazy Loading Images and Video](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/) from SitePoint
+* [Intersection Observer's Coming Into View](https://developers.google.com/web/updates/2016/04/intersectionobserver) from Google Developers
+* [Native Lazy-Loading For The Web](https://addyosmani.com/blog/lazy-loading/) from Addy Osami
 
 
 

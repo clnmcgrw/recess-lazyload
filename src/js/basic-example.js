@@ -6,8 +6,8 @@ const getImageList = () => {
   return [...Array(10)].map((item, i) => {
     return `<li>
               <figure>
-                <!--<img class="lazy-img" data-src="https://cdn2.hubspot.net/hubfs/5273025/lazyload-demo/${i + 1}.jpeg" />-->
-                <div class="lazy-img lazy-bg" data-src="https://cdn2.hubspot.net/hubfs/5273025/lazyload-demo/${i + 1}.jpeg"></div>
+                <img class="lazy-img" data-src="https://cdn2.hubspot.net/hubfs/5273025/lazyload-demo/${i + 1}.jpeg" />
+                <!--<div class="lazy-img lazy-bg" data-src="https://cdn2.hubspot.net/hubfs/5273025/lazyload-demo/${i + 1}.jpeg"></div>-->
               </figure>
               <figcaption>A caption for image number ${i + 1}</figcaption>
             </li>`
@@ -73,10 +73,10 @@ const initObserver = () => {
 
 
 window.addEventListener('load', () => {
-  initObserver();
+  //initObserver();
 
   // Load all the images on the page
-  //[...images].forEach(image => loadImage(image));
+  [...images].forEach(image => loadImage(image));
 });
 
 
